@@ -1,0 +1,21 @@
+---
+interface Props {
+	startDate: Date;
+	endDate: Date | undefined;
+}
+
+const { startDate, endDate } = Astro.props;
+const startDateFormatted = startDate.toLocaleDateString('en-us', {
+			year: 'numeric',
+			month: 'long',
+			day: 'numeric',
+		});
+const endDateFormatted = endDate?.toLocaleDateString('en-us', {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+});
+---
+
+<time datetime={startDate.toISOString()}>{startDateFormatted}</time>
+{endDate && startDateFormatted != endDateFormatted && <> - <time datetime={endDate.toISOString()}>{endDateFormatted}</time></>}

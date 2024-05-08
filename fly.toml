@@ -1,8 +1,3 @@
-# fly.toml app configuration file generated for il-dotorre-empty-brook-6631 on 2024-05-07T23:41:39-06:00
-#
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
-#
-
 app = 'il-dotorre'
 primary_region = 'sea'
 

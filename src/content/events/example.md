@@ -1,8 +1,7 @@
 ---
 title: "Example Tournament"
 location: "Example Location"
-startDate: 2030-01-01T12:00:00-06:00
-endDate: 2030-01-01T12:00:00-06:00
+startDate: "Jan 1 2030"
 ---
 
 ### Event description

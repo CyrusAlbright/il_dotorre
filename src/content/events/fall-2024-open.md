@@ -1,8 +1,8 @@
 ---
-title: "Summer 2024 Open Tournament"
-location: "MCMR 105/106, BSU"
-startDate: 2024-07-27T09:00:00-06:00
-endDate: 2024-07-27T21:00:00-06:00
+title: "Fall 2024 Open Tournament"
+location: "Jordan Ballroom, BSU SUB"
+startDate: 'Nov 16 2024'
+endDate: 'Nov 17 2024'
 ---
 
 ### Event description
